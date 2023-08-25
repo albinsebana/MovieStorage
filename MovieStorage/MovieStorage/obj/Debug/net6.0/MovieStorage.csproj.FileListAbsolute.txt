@@ -1,0 +1,15 @@
+C:\Users\albin.kurian\Desktop\DotNet\section13Assignment\MovieStorage\MovieStorage\bin\Debug\net6.0\MovieStorage.exe
+C:\Users\albin.kurian\Desktop\DotNet\section13Assignment\MovieStorage\MovieStorage\bin\Debug\net6.0\MovieStorage.deps.json
+C:\Users\albin.kurian\Desktop\DotNet\section13Assignment\MovieStorage\MovieStorage\bin\Debug\net6.0\MovieStorage.runtimeconfig.json
+C:\Users\albin.kurian\Desktop\DotNet\section13Assignment\MovieStorage\MovieStorage\bin\Debug\net6.0\MovieStorage.dll
+C:\Users\albin.kurian\Desktop\DotNet\section13Assignment\MovieStorage\MovieStorage\bin\Debug\net6.0\MovieStorage.pdb
+C:\Users\albin.kurian\Desktop\DotNet\section13Assignment\MovieStorage\MovieStorage\obj\Debug\net6.0\MovieStorage.csproj.AssemblyReference.cache
+C:\Users\albin.kurian\Desktop\DotNet\section13Assignment\MovieStorage\MovieStorage\obj\Debug\net6.0\MovieStorage.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\albin.kurian\Desktop\DotNet\section13Assignment\MovieStorage\MovieStorage\obj\Debug\net6.0\MovieStorage.AssemblyInfoInputs.cache
+C:\Users\albin.kurian\Desktop\DotNet\section13Assignment\MovieStorage\MovieStorage\obj\Debug\net6.0\MovieStorage.AssemblyInfo.cs
+C:\Users\albin.kurian\Desktop\DotNet\section13Assignment\MovieStorage\MovieStorage\obj\Debug\net6.0\MovieStorage.csproj.CoreCompileInputs.cache
+C:\Users\albin.kurian\Desktop\DotNet\section13Assignment\MovieStorage\MovieStorage\obj\Debug\net6.0\MovieStorage.dll
+C:\Users\albin.kurian\Desktop\DotNet\section13Assignment\MovieStorage\MovieStorage\obj\Debug\net6.0\refint\MovieStorage.dll
+C:\Users\albin.kurian\Desktop\DotNet\section13Assignment\MovieStorage\MovieStorage\obj\Debug\net6.0\MovieStorage.pdb
+C:\Users\albin.kurian\Desktop\DotNet\section13Assignment\MovieStorage\MovieStorage\obj\Debug\net6.0\MovieStorage.genruntimeconfig.cache
+C:\Users\albin.kurian\Desktop\DotNet\section13Assignment\MovieStorage\MovieStorage\obj\Debug\net6.0\ref\MovieStorage.dll
