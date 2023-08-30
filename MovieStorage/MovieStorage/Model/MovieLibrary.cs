@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -8,49 +9,35 @@ namespace MovieStorage.Model
 {
     internal class MovieLibrary
     {
-        private Movie[] movies = new Movie[5];
-        private int movieCount = 0;
+        private List<Movie> movies = new List<Movie>();
 
-        public void UploadMovie(string movieTitle)
+        public void UploadMovie(int movieId, string movieName, int year, string director)
         {
-            if (movieCount < movies.Length)
-            {
-                movies[movieCount] = new Movie(movieTitle);
-                movieCount++;
-                Console.WriteLine("Movie uploaded successfully.");
-            }
-            else
-            {
-                Console.WriteLine("Storage is full. Cannot upload more movies.");
-            }
+            movies.Add(new Movie(movieId, movieName, year, director));
+            Console.WriteLine("Movie uploaded successfully.");
         }
 
         public void DisplayMovies()
         {
-            if (movieCount == 0)
+            if (movies.Count == 0)
             {
                 Console.WriteLine("Storage is empty.");
             }
             else
             {
                 Console.WriteLine("Movies in storage:");
-                for (int i = 0; i < movieCount; i++)
+                for (int i = 0; i < movies.Count; i++)
                 {
-                    Console.WriteLine($"{i + 1}. {movies[i].Title}");
+                    Console.WriteLine($"{i + 1}. {movies[i].MovieName}");
                 }
             }
         }
 
         public void DeleteMovie(int index)
         {
-            if (index >= 0 && index < movieCount)
+            if (index >= 0 && index < movies.Count)
             {
-                for (int i = index; i < movieCount - 1; i++)
-                {
-                    movies[i] = movies[i + 1];
-                }
-                movies[movieCount - 1] = null;
-                movieCount--;
+                movies.RemoveAt(index);
                 Console.WriteLine("Movie deleted successfully.");
             }
             else

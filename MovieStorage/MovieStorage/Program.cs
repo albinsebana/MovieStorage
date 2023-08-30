@@ -1,6 +1,7 @@
 ﻿using MovieStorage.Model;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -28,8 +29,14 @@ namespace MovieStorageApp
                 {
                     case 1:
                         Console.Write("Enter the movie title: ");
-                        string movieTitle = Console.ReadLine();
-                        storage.UploadMovie(movieTitle);
+                        string movieName = Console.ReadLine();
+                        Console.Write("Enter the movie ID: ");
+                        int movieId = Convert.ToInt32(Console.ReadLine());
+                        Console.Write("Enter the movie year: ");
+                        int year = Convert.ToInt32(Console.ReadLine());
+                        Console.Write("Enter the movie director: ");
+                        string director = Console.ReadLine();
+                        storage.UploadMovie(movieId, movieName, year, director);
                         break;
                     case 2:
                         storage.DisplayMovies();

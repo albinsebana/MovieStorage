@@ -8,11 +8,17 @@ namespace MovieStorage.Model
 {
     internal class Movie
     {
-        public string Title { get; set; }
+        public int MovieId { get; set; }
+        public string MovieName { get; set; }
+        public int Year { get; set; }
+        public string Director { get; set; }
 
-        public Movie(string title)
+        public Movie(int movieId, string movieName, int year, string director)
         {
-            Title = title;
+            MovieId = movieId;
+            MovieName = movieName;
+            Year = year;
+            Director = director;
         }
     }
 }
